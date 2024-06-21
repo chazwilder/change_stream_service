@@ -1,3 +1,3 @@
 pub mod models;
 pub mod db;
-pub use self;
+pub mod domain;
