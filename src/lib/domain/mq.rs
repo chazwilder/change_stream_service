@@ -1,6 +1,6 @@
 use lapin::{options::*, types::FieldTable, Connection, ConnectionProperties, ExchangeKind, BasicProperties};
 use mongodb::{change_stream::event::{ChangeStreamEvent, OperationType}, bson::Document};
-use serde_json::json;
+use serde_json;
 use dotenvy::dotenv;
 use std::env;
 use log::info;
